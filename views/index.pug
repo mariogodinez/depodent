@@ -1,0 +1,47 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Document
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd", crossorigin="anonymous")
+    link(rel='stylesheet', href='./app.css')
+    link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+
+  body
+    section#main-content
+      header.header
+        .container
+          .row.flex.flex-between.flex-middle.padding10-0
+            .col-xs-6
+              h2 DepoDentt
+            .col-xs-6
+              button.navbar-toggler.hidden-sm-up.pull-xs-right(data-toggle='collapse', data-target='#navMenu')
+                | ☰
+              a.hidden-xs-down.login.text-xs-right.pull-sm-right.text-uppercase.font-weight-bold(href='') login
+        nav#navMenu.navbar.navbar-light.navbar-toggleable-xs.collapse(style='background:white;')
+          .container
+            .row
+              .col-xs-10.offset-xs-1.col-md-8.offset-md-4.col-lg-6.offset-lg-0
+                ul.navbar-nav.nav
+                  li.nav-item.text-xs-center
+                    a.nav-link(href='/')
+                      | home
+                  li.nav-item.text-xs-center
+                    a.nav-link(href='/catalogo.html')
+                      | catalogo
+                  li.nav-item.text-xs-center
+                    a.nav-link(href='')
+                      | productos
+                  li.nav-item.text-xs-center.hidden-sm-up
+                    a.nav-link(href='')
+                      | login
+              .col-xs-12.col-md-8.offset-md-2.col-lg-6.offset-lg-0.hidden-xs-down
+                form
+                  .input-group
+                    input.form-control(type='text', placeholder='Encuentra lo que buscas!')
+                    span.input-group-btn
+                      button.btn.btn-platzi
+                        span.fa.fa-search.hidden-md-up
+                        span.buscar.hidden-sm-down
+                          | buscar
+    script(src='app.js')

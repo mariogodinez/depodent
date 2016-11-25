@@ -1,0 +1,124 @@
+body {
+  background: #e2e2e2;
+}
+.header {
+  background: #48b4fb;
+  color: #fff;
+}
+.header .login,
+.header .nav-toggler {
+  color: #fff;
+  padding: 10px;
+}
+#menu-container {
+  background: #f4f4f4;
+}
+#search-bar {
+  padding: 1em;
+}
+.btn-platzi {
+  background: #48b4fb;
+  color: #fff;
+}
+input[type="text"].form-control:focus {
+  border: 1px solid #48b4fb;
+}
+.carousel-container img {
+  margin: 0 auto;
+}
+.info-container {
+  background: #48b4fb;
+}
+.info-container img {
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 50%;
+  height: 60%;
+}
+.navbar a {
+  text-transform: capitalize;
+}
+.nav-item {
+  font-style: italic;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin: 0 !important;
+}
+.nav-item:before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  margin: 0 12px;
+  border-radius: 50%;
+  background: #008000;
+  display: inline-block;
+}
+.nav-item:first-child:before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  display: none;
+}
+.list-group {
+  margin-top: 2em;
+}
+.list-group-item.active {
+  background: #48b4fb;
+}
+.listado-productos {
+  margin-top: 2em;
+}
+.listado-productos .card {
+  margin-bottom: 2em;
+}
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.flex-between {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.flex-center {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.flex-middle {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.padding10-0 {
+  padding: 10px 0;
+}
